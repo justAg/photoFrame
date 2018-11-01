@@ -179,7 +179,7 @@ $(document).ready(function() {
 	}) : (inputImage.disabled = !0, inputImage.parentNode.className += " disabled"), $("#generateImage").click(function() {
 		if (!$(this).hasClass("disabled")) {
 			$("#outputImage").attr("src", null);
-			const e = 400;//640;
+			const e = 640;
 			var t = r.getData(),
 				a = t.width,
 				n = t.x,
