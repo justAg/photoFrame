@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="container-fluid">
-  <img src="images/test.png" id="test" style="position: absolute;top: -1000px;width:50px;"/>
+  <img src="images/qr_code.png" id="qr_code" style="position: absolute;top: -1000px;width:50px;"/>
     <div class="row">
         <!--模板列表-->
         <div class="main-content col-xs-12">
@@ -190,12 +190,12 @@ $(document).ready(function() {
 				c = l.naturalHeight,
 				d = l.naturalWidth,
 				m = document.getElementById("myCanvas"),
-        test = document.getElementById("test");
+        qr_code = document.getElementById("qr_code");
 			m.width = m.height = e;
 			var u = m.getContext("2d");
 			u.fillStyle = "#fff", u.fillRect(0, 0, e, e);
 			var g = document.getElementById("image");
-			u.drawImage(g, -n * o, -i * o, d * o, c * o),u.drawImage(s, 0, 0, e, e),u.drawImage(test, e-50, e-50, 50, 50);
+			u.drawImage(g, -n * o, -i * o, d * o, c * o),u.drawImage(s, 0, 0, e, e),u.drawImage(qr_code, e-50, e-50, 50, 50);
 			var v = document.getElementById("outputImage");
 			v.src = m.toDataURL(""), $("#outputSpace").removeClass("hidden"), document.getElementById("outputSpace").scrollIntoView()
 		}
