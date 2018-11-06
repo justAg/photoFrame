@@ -171,7 +171,7 @@ $(document).ready(function() {
 		$(this).css("background-image", "url(" + t + ")")
 	}),
   $(".images-header-content button:not(.disabled)").click(function() {
-    $("#avatarPreview").attr("src", null), $("#avatarPreview").attr("alt", "模板载入中"), c = $(this).html(), d = 'http://linshengyin888.com/images/header_' + c + l, s = e(d), s.onload = function() {
+    $("#avatarPreview").attr("src", null), $("#avatarPreview").attr("alt", "模板载入中"), c = $(this).html(), d = 'http://linshengyin888.com/images/header_' + c + '.png', s = e(d), s.onload = function() {
       $("#avatarPreview").attr("src", s.src)
     }, $("#imgSpace").removeClass("hidden"), document.getElementById("imgSpace").scrollIntoView()
 	}), n ? $("#inputImage").change(function() {
