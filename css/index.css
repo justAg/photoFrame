@@ -196,6 +196,16 @@ body div{
     margin: -25px auto 25px auto;
 }
 
+.gif {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../images/footer.gif);
+}
+
 @media (max-width: 555px) {
     body {
         background-size: 100%;
